@@ -1,12 +1,15 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navigation from "./components/Navigation";
 import DynamicPage from "./components/DynamicPage";
+import './styles/style.css';
+import './styles/mobileStyle.css';
+
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <div>
-      <Navigation />
+      <Header />
       <Routes>
         <Route path="/" element={<DynamicPage slug="description" />} />
         <Route path="/sketch" element={<DynamicPage slug="sketch" />} />
