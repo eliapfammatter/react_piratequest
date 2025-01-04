@@ -28,7 +28,7 @@ const DynamicPage = ({ slug }) => {
 
   return (
     <div>
-      <h1>{content.title.rendered}</h1>
+      <h2>{content.title.rendered}</h2>
       <div dangerouslySetInnerHTML={{ __html: content.content.rendered }} />
     </div>
   );

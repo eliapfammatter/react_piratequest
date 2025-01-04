@@ -18,6 +18,7 @@ const App = () => {
         <Route path="/logbook" element={<DynamicPage slug="logbook" />} />
         <Route path="/game" element={<DynamicPage slug="game" />} />
         <Route path="/forms" element={<DynamicPage slug="forms" />} />
+        <Route path="/video-tutorial" element={<DynamicPage slug="video-tutorial" />} />
       </Routes>
     </div>
   );

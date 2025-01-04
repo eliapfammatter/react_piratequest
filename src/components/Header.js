@@ -34,6 +34,9 @@ const Header = () => {
           <li>
             <Link to="/forms">Forms</Link>
           </li>
+          <li>
+            <Link to="/video-tutorial">video tutorial</Link>
+          </li> 
         </ul>
       </nav>
     </header>
